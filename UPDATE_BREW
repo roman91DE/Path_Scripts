@@ -1,0 +1,14 @@
+#!/usr/bin/env fish --no-config
+
+# update homebrew
+brew update
+
+# upgrade packages
+brew upgrade
+
+# clean up old stuff
+brew cleanup
+brew autoremove
+
+# remove telemetry (just in case)
+brew analytics off
